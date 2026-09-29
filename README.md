@@ -9,7 +9,7 @@
 
 ![Dates](https://img.shields.io/badge/dates-Jan_6–12,_2027-e0602f)
 ![Group](https://img.shields.io/badge/group-6_people-4c5566)
-![Budget](https://img.shields.io/badge/budget-≈₩872k_/_person-4c5566)
+![Budget](https://img.shields.io/badge/budget-≈₩896k_/_person-4c5566)
 ![Flights](https://img.shields.io/badge/flights-booked_✓-3d7d5f)
 ![Stay](https://img.shields.io/badge/Osaka_stay-booked_✓-3d7d5f)
 ![Buses](https://img.shields.io/badge/night_buses-to_book-e0602f)
@@ -24,8 +24,8 @@
 |---|---|
 | **Land** | Jan 6, 09:15 — Kansai International (KIX) |
 | **Leave** | Jan 12, 07:40 |
-| **Route** | Osaka (2 nights, guesthouse) → 🚌 overnight bus → Tokyo (2 nights, manga cafe) → Kawaguchiko day trip for Mt Fuji → 🚌 overnight bus back to Osaka |
-| **Budget** | ≈₩872,000 per person all-in (flights, stay, transport, food, buffer) · ≈₩5.23M for all 6 |
+| **Route** | Osaka (2 nights, guesthouse) → 🚌 overnight bus → Tokyo (2 nights, manga cafe) → Kawaguchiko day trip for Mt Fuji → 🚌 overnight bus back to Osaka → ⛩️ half-day Kyoto (Kiyomizu-dera) |
+| **Budget** | ≈₩896,000 per person all-in (flights, stay, transport, food, buffer) · ≈₩5.37M for all 6 |
 | **Food & prayer** | Halal food spots and solat times are built into every day of the schedule |
 
 ```mermaid
@@ -34,6 +34,8 @@ flowchart LR
     OSA -- 🚌 night bus --> TYO[🗼 Tokyo<br/>2 nights]
     TYO --> FUJI[🗻 Kawaguchiko<br/>day trip]
     FUJI -- 🚌 night bus --> OSA2[🏯 Osaka]
+    OSA2 -. half-day .-> KYO[⛩️ Kyoto<br/>Kiyomizu-dera]
+    KYO -.-> OSA2
     OSA2 --> OUT([✈️ KIX<br/>Jan 12])
 ```
 
