@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Places guide for the Japan winter trip, Jan 2027: what each place is, why it's worth it, ratings, costs, tips, halal food and prayer spots, plus the trip prep checklist.">
+<meta name="theme-color" content="#2b4c7e">
+<meta property="og:title" content="Places Guide — Japan Winter Trip 2027">
+<meta property="og:description" content="18 places across 6 days, rated, with halal & solat notes and a prep checklist.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛩️</text></svg>">
+<title>Japan Trip Places Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f6f7fa; --bg-panel:#fff; --bg-sunk:#eceef3;
+    --ink:#1a2130; --ink-soft:#4c5566; --ink-faint:#838da0;
+    --line:#d9dde5; --line-strong:#b7bdc9;
+    --accent:#2b4c7e; --accent-soft:#e4eaf4;
+    --coral:#e0602f; --coral-soft:#fbe7dd;
+    --green:#3d7d5f; --green-soft:#e2efe8;
+    --amber:#b7791f; --amber-soft:#fbf0dc;
+    --shadow:0 1px 2px rgba(20,28,45,.04), 0 8px 24px -12px rgba(20,28,45,.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#10141c; --bg-panel:#171c27; --bg-sunk:#0c0f16;
+      --ink:#e8ebf1; --ink-soft:#a7b0c2; --ink-faint:#6b7385;
+      --line:#2a3140; --line-strong:#3a4356;
+      --accent:#7fa1d6; --accent-soft:#202c42;
+      --coral:#f0854f; --coral-soft:#3a2418;
+      --green:#6bb894; --green-soft:#1b2e24;
+      --amber:#e0b155; --amber-soft:#35291a;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#10141c; --bg-panel:#171c27; --bg-sunk:#0c0f16;
+    --ink:#e8ebf1; --ink-soft:#a7b0c2; --ink-faint:#6b7385;
+    --line:#2a3140; --line-strong:#3a4356;
+    --accent:#7fa1d6; --accent-soft:#202c42;
+    --coral:#f0854f; --coral-soft:#3a2418;
+    --green:#6bb894; --green-soft:#1b2e24;
+    --amber:#e0b155; --amber-soft:#35291a;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0; background:var(--bg); color:var(--ink); font-family:"Public Sans",-apple-system,BlinkMacSystemFont,sans-serif; -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:820px; margin:0 auto; padding:0 20px 96px;}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif; text-wrap:balance; margin:0;}
+  a{color:var(--accent);}
+  p{line-height:1.65; color:var(--ink-soft);}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace; font-variant-numeric:tabular-nums;}
+  .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-faint);}
+  .card{background:var(--bg-panel); border:1px solid var(--line); border-radius:12px; box-shadow:var(--shadow);}
+
+  /* header */
+  .backlink{display:inline-block; margin-top:28px; font-family:"IBM Plex Mono",monospace; font-size:12.5px; text-decoration:none;}
+  header.hero{margin-top:14px; padding:28px 30px; background:var(--bg-panel); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow);}
+  header.hero h1{font-size:clamp(30px,5vw,40px); font-weight:600; line-height:1.08; margin-top:10px;}
+  header.hero p{max-width:60ch; margin:12px 0 0;}
+  .hero-stats{display:grid; grid-template-columns:repeat(4,1fr); margin-top:22px; border-top:2px dashed var(--line-strong);}
+  .hero-stats div{padding:14px 12px 0 0;}
+  .hero-stats b{display:block; font-size:20px; font-family:"Fraunces",serif;}
+  .hero-stats span{font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint);}
+
+  /* nav */
+  nav.toc{position:sticky; top:0; z-index:10; margin:20px -20px 0; padding:10px 20px; background:color-mix(in srgb,var(--bg) 88%,transparent); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); border-bottom:1px solid var(--line); display:flex; gap:6px; overflow-x:auto; scrollbar-width:none;}
+  nav.toc::-webkit-scrollbar{display:none;}
+  nav.toc a{flex:none; font-family:"IBM Plex Mono",monospace; font-size:12px; text-decoration:none; color:var(--ink-soft); padding:5px 10px; border:1px solid var(--line); border-radius:999px; background:var(--bg-panel);}
+  nav.toc a span{color:var(--coral); font-weight:600; margin-right:5px;}
+  nav.toc a:hover{border-color:var(--accent); color:var(--accent);}
+  section{scroll-margin-top:64px;}
+
+  /* how to read + top picks */
+  .intro-grid{display:grid; grid-template-columns:1.3fr 1fr; gap:14px; margin-top:28px;}
+  .intro-grid .card{padding:18px 20px;}
+  .intro-grid h3{font-size:17px; margin-bottom:8px;}
+  .intro-grid p{font-size:14px; margin:0;}
+  .top-picks{list-style:none; margin:0; padding:0;}
+  .top-picks li{display:flex; justify-content:space-between; gap:10px; padding:6px 0; border-bottom:1px dashed var(--line); font-size:14px;}
+  .top-picks li:last-child{border-bottom:none;}
+  .top-picks a{text-decoration:none; font-weight:600;}
+  .top-picks .mono{font-size:12px; color:var(--ink-faint);}
+
+  /* day */
+  .day-section{margin-top:60px;}
+  .day-head{display:flex; gap:18px; align-items:flex-start; margin-bottom:18px;}
+  .day-big{flex:none; width:52px; height:52px; border-radius:50%; background:var(--accent); color:var(--bg-panel); display:grid; place-items:center; font-family:"Fraunces",serif; font-size:24px; font-weight:600;}
+  .day-title{font-size:25px; font-weight:600; margin-top:4px;}
+  .day-intro{margin:6px 0 0; font-size:14.5px;}
+  .day-intro b{color:var(--ink);}
+  .places{display:grid; gap:14px;}
+
+  /* place card */
+  .place{padding:22px 24px;}
+  .place-head{display:flex; justify-content:space-between; gap:16px; align-items:flex-start;}
+  .place-name{font-size:21px; font-weight:600; margin-top:4px;}
+  .jp{font-family:"Noto Sans JP",sans-serif; font-size:13px; font-weight:400; color:var(--ink-faint); margin-left:4px; white-space:nowrap;}
+  .rating{flex:none; text-align:right;}
+  .rating-num{font-family:"Fraunces",serif; font-size:26px; font-weight:600; color:var(--coral); line-height:1;}
+  .rating-num small{font-size:13px; color:var(--ink-faint); font-weight:500;}
+  .segs{display:flex; gap:2px; margin-top:6px;}
+  .segs i{width:7px; height:7px; border-radius:2px; background:var(--bg-sunk); border:1px solid var(--line);}
+  .segs i.on{background:var(--coral); border-color:var(--coral);}
+  .syn{margin:14px 0 0; font-size:15px; color:var(--ink);}
+  .why{margin-top:12px; padding:11px 14px; background:var(--accent-soft); border-radius:8px; font-size:14px; line-height:1.55; color:var(--ink);}
+  .why b{color:var(--accent);}
+  .facts{display:grid; grid-template-columns:repeat(4,1fr); gap:0; margin:14px 0 0; border:1px solid var(--line); border-radius:8px; overflow:hidden;}
+  .facts div{padding:10px 12px; border-right:1px solid var(--line);}
+  .facts div:last-child{border-right:none;}
+  .facts dt{font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-faint);}
+  .facts dd{margin:4px 0 0; font-size:13px; font-weight:600; line-height:1.4;}
+  ul.tips{margin:14px 0 0; padding-left:18px;}
+  ul.tips li{font-size:14px; line-height:1.6; color:var(--ink-soft); margin-bottom:4px;}
+  ul.tips li b{color:var(--ink);}
+  .halal{margin-top:12px; display:flex; gap:10px; align-items:baseline; font-size:13.5px; line-height:1.55; padding-top:12px; border-top:1px dashed var(--line);}
+  .halal-tag{flex:none; font-family:"IBM Plex Mono",monospace; font-size:10.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--green); background:var(--green-soft); padding:3px 7px; border-radius:5px;}
+
+  /* etiquette */
+  .section-head{display:flex; align-items:baseline; gap:12px; margin-bottom:18px;}
+  .section-num{font-family:"IBM Plex Mono",monospace; font-size:13px; color:var(--coral); font-weight:600;}
+  h2.section-title{font-size:25px; font-weight:600;}
+  .etiq-grid{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+  .etiq{display:flex; gap:12px; padding:15px 16px;}
+  .etiq-icon{font-size:20px; line-height:1.2;}
+  .etiq b{font-size:14.5px;}
+  .etiq p{margin:4px 0 0; font-size:13.5px; line-height:1.5;}
+
+  /* checklist */
+  .done-card{padding:16px 20px; background:var(--green-soft); border:1px solid color-mix(in srgb,var(--green) 30%,var(--line)); border-radius:12px;}
+  .done-card ul{list-style:none; margin:8px 0 0; padding:0; display:grid; grid-template-columns:1fr 1fr; gap:6px 16px;}
+  .done-card li{display:flex; gap:8px; align-items:center; font-size:14px;}
+  .check-group{margin-top:22px;}
+  .check-head{display:flex; align-items:center; gap:10px; margin-bottom:10px;}
+  .check-head h3{font-size:18px;}
+  .pill{font-family:"IBM Plex Mono",monospace; font-size:10.5px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; padding:3px 8px; border-radius:999px;}
+  .pill.urgent{background:var(--coral-soft); color:var(--coral);}
+  .pill.todo{background:var(--amber-soft); color:var(--amber);}
+  .pill.later{background:var(--accent-soft); color:var(--accent);}
+  ul.checklist{list-style:none; margin:0; padding:0; background:var(--bg-panel); border:1px solid var(--line); border-radius:12px; box-shadow:var(--shadow); overflow:hidden;}
+  .check-item{display:grid; grid-template-columns:auto 1fr auto; gap:12px; align-items:start; padding:13px 16px; border-bottom:1px solid var(--line);}
+  .check-item:last-child{border-bottom:none;}
+  .box{width:18px; height:18px; margin-top:2px; border:1.5px solid var(--line-strong); border-radius:5px; display:inline-grid; place-items:center; font-size:12px; flex:none;}
+  .box.done{background:var(--green); border-color:var(--green); color:var(--bg-panel);}
+  .check-title{font-size:14.5px; font-weight:600; line-height:1.4;}
+  .check-note{font-size:13px; color:var(--ink-soft); line-height:1.5; margin-top:2px;}
+  .check-note b{color:var(--ink);}
+  .when{font-size:11.5px; color:var(--ink-faint); white-space:nowrap; padding-top:2px;}
+
+  footer{margin-top:64px; padding-top:20px; border-top:1px solid var(--line); font-size:12.5px; color:var(--ink-faint); line-height:1.6;}
+  footer ul{padding-left:18px; columns:2; column-gap:28px;}
+  footer li{margin-bottom:4px; break-inside:avoid;}
+
+  @media (max-width:640px){
+    header.hero{padding:22px 20px;}
+    .hero-stats{grid-template-columns:repeat(2,1fr);}
+    .intro-grid,.etiq-grid,.done-card ul{grid-template-columns:1fr;}
+    .place{padding:18px;}
+    .facts{grid-template-columns:1fr 1fr;}
+    .facts div:nth-child(2){border-right:none;}
+    .facts div:nth-child(-n+2){border-bottom:1px solid var(--line);}
+    .day-big{width:42px; height:42px; font-size:20px;}
+    .segs i{width:5px;}
+    footer ul{columns:1;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <a class="backlink" href="./">← Back to the trip dossier</a>
+
+  <header class="hero">
+    <div class="eyebrow">Japan Winter Trip 2027 · Places guide</div>
+    <h1>Know where we're going</h1>
+    <p>Every place on the itinerary, day by day: what it is, why it's worth the trip, a rating out of 10, what it costs, practical tips, and where to eat halal and pray nearby. At the bottom is the prep checklist of everything still to do before we fly.</p>
+    <div class="hero-stats">
+      <div><b>6</b><span>Days of sights</span></div>
+      <div><b>18</b><span>Places</span></div>
+      <div><b>23</b><span>Prep tasks left</span></div>
+      <div><b>3</b><span>Urgent now</span></div>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Sections"><a href="#day1"><span>D1</span>Osaka</a><a href="#day2"><span>D2</span>Osaka</a><a href="#day3"><span>D3</span>Tokyo</a><a href="#day4"><span>D4</span>Tokyo</a><a href="#day5"><span>D5</span>Mt Fuji</a><a href="#day6"><span>D6</span>Kyoto</a><a href="#etiquette"><span>✦</span>Etiquette</a><a href="#prep"><span>✓</span>Prep list</a></nav>
+
+  <div class="intro-grid">
+    <div class="card">
+      <h3>How to read the ratings</h3>
+      <p>The ratings are for <b>our group specifically</b>: in winter, on this budget, eating halal, and often tired from overnight buses. A 10 means don't skip it; a 6 means nice if there's time. Prices and hours were checked on 29 Sep 2026, so re-check anything booking-critical closer to the date.</p>
+    </div>
+    <div class="card">
+      <h3>Top 5 of the trip</h3>
+      <ul class="top-picks"><li><a href="#day3">Tokyo Camii</a><span class="mono">10/10 · Day 3</span></li><li><a href="#day5">Chureito Pagoda</a><span class="mono">10/10 · Day 5</span></li><li><a href="#day1">Dotonbori</a><span class="mono">9/10 · Day 1</span></li><li><a href="#day3">Senso-ji</a><span class="mono">9/10 · Day 3</span></li><li><a href="#day6">Kiyomizu-dera</a><span class="mono">9/10 · Day 6</span></li></ul>
+    </div>
+  </div>
+
+  <section id="day1" class="day-section">
+    <div class="day-head">
+      <div class="day-big">1</div>
+      <div>
+        <div class="eyebrow">Day 1 · Wed 6 Jan · Osaka</div>
+        <h2 class="day-title">Osaka — Minami (Namba)</h2>
+        <p class="day-intro">First day, fresh off the plane. Everything is walkable around Namba, so no passes needed yet.</p>
+      </div>
+    </div>
+    <div class="places">
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Food market</div>
+            <h3 class="place-name">Kuromon Market <span class="jp">黒門市場</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 7 out of 10"><div class="rating-num">7<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">A 580-metre covered market that has been feeding Osaka since the Edo period, nicknamed “Osaka's kitchen”. Around 150 stalls sell fresh seafood, fruit and street snacks grilled right in front of you.</p>
+        <div class="why"><b>Why it's worth it:</b> The easiest first taste of Japanese food culture: scallops, crab legs and fruit you can eat standing up, straight after landing.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>¥500–2,000 grazing</dd></div>
+          <div><dt>Time needed</dt><dd>1–1.5 h</dd></div>
+          <div><dt>Hours</dt><dd>~09:00–17:00 (stalls vary)</dd></div>
+          <div><dt>Best time</dt><dd>Late morning, before stalls pack up</dd></div>
+        </dl>
+        <ul class="tips"><li>Prices are tourist-level. Compare a few stalls before buying.</li><li>Most stalls are <b>not</b> halal-certified. Plain grilled seafood and fruit are the safe picks; ask about sauces (they often contain mirin or sake), and skip the wagyu skewers.</li><li>Many stalls close by 5pm, so go when you arrive, not in the evening.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Plain seafood and fruit here; proper halal lunch around Namba (see Dotonbori).</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Shopping street</div>
+            <h3 class="place-name">Shinsaibashi-suji <span class="jp">心斎橋筋商店街</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 6 out of 10"><div class="rating-num">6<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">A long covered shopping arcade running north from Dotonbori, packed with drugstores, fashion chains, snack shops and Don Quijote nearby.</p>
+        <div class="why"><b>Why it's worth it:</b> It's roofed, so it's warm and dry in January. Good for a slow first afternoon and cheap souvenir snacks.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free (shopping extra)</dd></div>
+          <div><dt>Time needed</dt><dd>1–2 h</dd></div>
+          <div><dt>Hours</dt><dd>Most shops ~10:00–21:00</dd></div>
+          <div><dt>Best time</dt><dd>Afternoon</dd></div>
+        </dl>
+        <ul class="tips"><li>Drugstores here are the cheapest place for Japanese snacks and skincare.</li><li>Japan's tax-free system changed on 1 Nov 2026: you now pay full price and claim the 10% back at the airport. Keep receipts together (see Prep).</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Prayer room at <b>Namba City</b> mall, right by Namba station.</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Night district</div>
+            <h3 class="place-name">Dotonbori <span class="jp">道頓堀</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 9 out of 10"><div class="rating-num">9<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">Osaka's famous canal strip of giant neon signs, mechanical crabs and street food. The Glico “Running Man” sign has been on this canal since 1935 and is the classic Osaka photo.</p>
+        <div class="why"><b>Why it's worth it:</b> This <em>is</em> Osaka. The city's motto is <em>kuidaore</em>, “eat until you drop”, and Dotonbori at night is where it happens.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free (food extra)</dd></div>
+          <div><dt>Time needed</dt><dd>2–3 h</dd></div>
+          <div><dt>Hours</dt><dd>Always open; best after dark</dd></div>
+          <div><dt>Best time</dt><dd>After 18:00, lights on</dd></div>
+        </dl>
+        <ul class="tips"><li>Best Glico photo spot: Ebisu Bridge (戎橋).</li><li>Takoyaki is octopus, but stalls aren't halal-certified. Ask about the sauce, or eat at a certified place instead.</li><li>Kushikatsu shops mostly fry pork alongside everything else. Choose a halal restaurant instead.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span><b>Chibo Dotonbori</b> (Muslim-friendly okonomiyaki, 7F, has a prayer room) and <b>Ali's Kitchen</b> (halal, near Namba).</span></div>
+      </article>
+    </div>
+  </section>
+  <section id="day2" class="day-section">
+    <div class="day-head">
+      <div class="day-big">2</div>
+      <div>
+        <div class="eyebrow">Day 2 · Thu 7 Jan · Osaka</div>
+        <h2 class="day-title">Osaka — Castle, Umeda &amp; Shinsekai</h2>
+        <p class="day-intro">Amazing Pass day (¥3,500), which covers metro rides plus the three big stops below. Overnight bus to Tokyo leaves at 23:00.</p>
+      </div>
+    </div>
+    <div class="places">
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">History</div>
+            <h3 class="place-name">Osaka Castle <span class="jp">大阪城</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 8 out of 10"><div class="rating-num">8<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">Built in 1583 by Toyotomi Hideyoshi, the warlord who unified Japan. The white-and-gold main tower you see is a 1931 reconstruction, now an 8-floor museum with a lookout on top, surrounded by huge stone walls, moats and a park.</p>
+        <div class="why"><b>Why it's worth it:</b> The most iconic building in Osaka, and the park is great for a slow walk and a quiet Zohor.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>¥1,200 — free with Amazing Pass</dd></div>
+          <div><dt>Time needed</dt><dd>2 h</dd></div>
+          <div><dt>Hours</dt><dd>09:00–17:00 (last entry 16:30)</dd></div>
+          <div><dt>Best time</dt><dd>Opening time, before tour groups</dd></div>
+        </dl>
+        <ul class="tips"><li>Honestly, the outside and the grounds are the best part. The museum inside is crowded and very text-heavy.</li><li>Lift queues are long, so take the stairs down.</li><li>Nishinomaru Garden has the classic view of the tower.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Pray in a quiet corner of the castle park (bring a sejadah).</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Viewpoint</div>
+            <h3 class="place-name">Umeda Sky Building <span class="jp">梅田スカイビル</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 7 out of 10"><div class="rating-num">7<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">Two 173-metre towers joined at the top by a ring-shaped “Floating Garden” observatory, with an open-air rooftop walk. You ride up in a glass-tube escalator crossing the gap between the towers.</p>
+        <div class="why"><b>Why it's worth it:</b> 360° view over Osaka, and the escalator ride alone is worth it.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free with Amazing Pass <b>before 15:00</b></dd></div>
+          <div><dt>Time needed</dt><dd>1 h</dd></div>
+          <div><dt>Hours</dt><dd>Daily, into the evening</dd></div>
+          <div><dt>Best time</dt><dd>Before 15:00 (pass cut-off)</dd></div>
+        </dl>
+        <ul class="tips"><li><b>Be there before 3pm.</b> After that the Amazing Pass only gives 10% off.</li><li>The open rooftop is windy and cold in January, so wear gloves.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Plenty of halal options around Umeda/Osaka Station if lunch runs late.</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Retro district</div>
+            <h3 class="place-name">Tsutenkaku &amp; Shinsekai <span class="jp">通天閣・新世界</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 7 out of 10"><div class="rating-num">7<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">Shinsekai (“New World”) is a retro 1910s-era neighbourhood of bright signs and old-school eateries, centred on the 108-metre Tsutenkaku Tower. The tower's mascot is Billiken, a smiling figure whose feet people rub for luck.</p>
+        <div class="why"><b>Why it's worth it:</b> Feels completely different from modern Namba: loud, nostalgic and very photogenic at dusk.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Tower free with Amazing Pass</dd></div>
+          <div><dt>Time needed</dt><dd>1.5 h</dd></div>
+          <div><dt>Hours</dt><dd>Tower ~10:00–20:00</dd></div>
+          <div><dt>Best time</dt><dd>Dusk, as the lights come on</dd></div>
+        </dl>
+        <ul class="tips"><li>Shinsekai is the birthplace of kushikatsu, but most shops use pork and serve alcohol, so eat at Seyhan Kebab instead.</li><li>Stick to the main lit streets at night.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span><b>Seyhan Kebab Tsutenkaku</b>, a Turkish halal restaurant a short walk from the tower. It's highly rated and good for dinner before the bus.</span></div>
+      </article>
+    </div>
+  </section>
+  <section id="day3" class="day-section">
+    <div class="day-head">
+      <div class="day-big">3</div>
+      <div>
+        <div class="eyebrow">Day 3 · Fri 8 Jan · Tokyo</div>
+        <h2 class="day-title">Tokyo — Asakusa, Tokyo Camii, Shibuya</h2>
+        <p class="day-intro">Arrive at Shinjuku bus terminal ~07:30. <b>It's Friday</b>, so the men should plan the day around Solat Jumaat at Tokyo Camii.</p>
+      </div>
+    </div>
+    <div class="places">
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Temple</div>
+            <h3 class="place-name">Senso-ji <span class="jp">浅草寺</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 9 out of 10"><div class="rating-num">9<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">Tokyo's oldest temple, founded in 628. You enter through Kaminarimon (“Thunder Gate”) with its giant red lantern, then walk Nakamise-dori, a 250-metre street of traditional snack and souvenir stalls, up to the main hall and five-storey pagoda.</p>
+        <div class="why"><b>Why it's worth it:</b> The best “old Tokyo” atmosphere in the city, it's free, and a great first stop straight off the bus.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free</dd></div>
+          <div><dt>Time needed</dt><dd>1.5–2 h</dd></div>
+          <div><dt>Hours</dt><dd>Grounds always open; main hall 06:30–17:00 (Oct–Mar)</dd></div>
+          <div><dt>Best time</dt><dd>Before 10:00, fewer crowds</dd></div>
+        </dl>
+        <ul class="tips"><li>Things like incense, fortune slips (omikuji) and ringing bells are optional. You can simply walk around as a visitor.</li><li>Nakamise snacks: try ningyo-yaki (small cakes with red bean filling) and check the ingredients as usual.</li><li>Eating while walking is discouraged here. Stand by the stall to eat.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span><b>Naritaya</b>, a halal-certified ramen shop right beside Senso-ji, with a prayer room on 2F (tell staff before eating).</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Mosque</div>
+            <h3 class="place-name">Tokyo Camii <span class="jp">東京ジャーミイ</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 10 out of 10"><div class="rating-num">10<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+        </div>
+        <p class="syn">Japan's largest mosque. The original was built in 1938 by Tatar Muslims who had settled in Tokyo; the current Ottoman-style building was completed in 2000 using Turkish architects, craftsmen and materials. It also houses a Turkish culture centre and a halal grocery.</p>
+        <div class="why"><b>Why it's worth it:</b> For this group it's a must: a proper place for Jumaat, a stunning interior, and halal food under the same roof.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free</dd></div>
+          <div><dt>Time needed</dt><dd>1.5 h (with Jumaat)</dd></div>
+          <div><dt>Hours</dt><dd>10:00–18:00 daily</dd></div>
+          <div><dt>Best time</dt><dd>Friday for Jumaat</dd></div>
+        </dl>
+        <ul class="tips"><li><b>Friday: azan ~12:30, Jumaat ~13:00</b>, with the khutbah in Japanese, Turkish and English. Men should arrive by 12:15.</li><li>The itinerary currently shows Zohor at 11:47, so on Friday shift lunch to after Jumaat.</li><li>Nearest station: Yoyogi-Uehara (Chiyoda/Odakyu line), a 5-minute walk.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>The halal market on the ground floor sells Turkish bread and snacks, which make good bekal for Kawaguchiko.</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">City icon</div>
+            <h3 class="place-name">Shibuya Crossing &amp; Hachiko <span class="jp">渋谷スクランブル交差点・ハチ公</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 8 out of 10"><div class="rating-num">8<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">The famous scramble crossing, where every direction goes green at once and hundreds of people cross together. Next to it is the statue of Hachiko, the dog who waited at Shibuya Station every day for nearly 10 years after his owner died in 1925.</p>
+        <div class="why"><b>Why it's worth it:</b> The most “Tokyo” moment you can have in five minutes, for free.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free</dd></div>
+          <div><dt>Time needed</dt><dd>30–60 min</dd></div>
+          <div><dt>Hours</dt><dd>Always</dd></div>
+          <div><dt>Best time</dt><dd>After dark, when the screens are lit</dd></div>
+        </dl>
+        <ul class="tips"><li>For the view from above for free, use the walkway window in Shibuya Mark City (between the station and Mark City).</li><li>The crossing is heaving on Friday and Saturday nights, so keep bags in front.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Prayer room on <b>5F of Shibuya PARCO</b>.</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Street fashion</div>
+            <h3 class="place-name">Harajuku &amp; Takeshita Street <span class="jp">原宿・竹下通り</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 6 out of 10"><div class="rating-num">6<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">A narrow 350-metre street that's the centre of Tokyo's youth fashion and kawaii culture: colourful shops, rainbow snacks and famous crepe stands. Meiji Jingu's forested shrine grounds are right next door.</p>
+        <div class="why"><b>Why it's worth it:</b> Fun and very photogenic, but it's crowded and short, so treat it as a quick stop.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free</dd></div>
+          <div><dt>Time needed</dt><dd>1 h</dd></div>
+          <div><dt>Hours</dt><dd>Shops ~10:00–20:00</dd></div>
+          <div><dt>Best time</dt><dd>Weekday afternoon</dd></div>
+        </dl>
+        <ul class="tips"><li>Crepe fillings can include gelatin or liqueur, so ask first.</li><li>For a calm contrast, walk the gravel path through the Meiji Jingu forest (free, closes around sunset).</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Shibuya PARCO prayer room is one stop away.</span></div>
+      </article>
+    </div>
+  </section>
+  <section id="day4" class="day-section">
+    <div class="day-head">
+      <div class="day-big">4</div>
+      <div>
+        <div class="eyebrow">Day 4 · Sat 9 Jan · Tokyo</div>
+        <h2 class="day-title">Tokyo — Garden, Akihabara, Shibuya Sky</h2>
+        <p class="day-intro">Full Tokyo day. Buy extra halal food at dinner: there's nothing halal in Kawaguchiko tomorrow.</p>
+      </div>
+    </div>
+    <div class="places">
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Garden</div>
+            <h3 class="place-name">Shinjuku Gyoen <span class="jp">新宿御苑</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 7 out of 10"><div class="rating-num">7<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">A former imperial garden, open to the public since 1949, that mixes Japanese, English and French garden styles across a huge area in the middle of Shinjuku. There's also a big tropical greenhouse.</p>
+        <div class="why"><b>Why it's worth it:</b> A calm break from crowds. In winter the trees are bare, but the greenhouse is warm and the skyline views are still good.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>¥500</dd></div>
+          <div><dt>Time needed</dt><dd>1–1.5 h</dd></div>
+          <div><dt>Hours</dt><dd>09:00–16:30 (last entry 16:00), <b>closed Mondays</b></dd></div>
+          <div><dt>Best time</dt><dd>Morning</dd></div>
+        </dl>
+        <ul class="tips"><li>Pick this <em>or</em> Akihabara if you're short on time.</li><li>No alcohol allowed inside the garden. Picnics with bekal are fine.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Several halal ramen and curry spots in Shinjuku.</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Anime &amp; games</div>
+            <h3 class="place-name">Akihabara <span class="jp">秋葉原</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 8 out of 10"><div class="rating-num">8<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">“Electric Town”, Tokyo's centre for anime, manga, figures, retro video games and multi-floor arcades.</p>
+        <div class="why"><b>Why it's worth it:</b> If anyone in the group likes anime or games, it's a 10/10. For everyone else it's still a fun hour.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free (shopping extra)</dd></div>
+          <div><dt>Time needed</dt><dd>2–3 h</dd></div>
+          <div><dt>Hours</dt><dd>Shops ~11:00–20:00</dd></div>
+          <div><dt>Best time</dt><dd>Afternoon</dd></div>
+        </dl>
+        <ul class="tips"><li>Retro game shops like Super Potato are worth a look even if you don't buy.</li><li>Check that games are region-compatible before buying consoles or cartridges.</li><li>Maid cafés have a seat charge and time limits. Optional, and not budgeted.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span><b>CoCo Ichibanya Akihabara</b> (halal-certified curry). <b>Masjid Nusantara</b> is on 5F of the Yamaume Building, a short walk from the station.</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Viewpoint · optional</div>
+            <h3 class="place-name">Shibuya Sky <span class="jp">渋谷スカイ</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 8 out of 10"><div class="rating-num">8<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">An open-air rooftop 229 metres up on Shibuya Scramble Square, with glass edges and no roof, giving a 360° view over Tokyo. On a clear winter day you can see Mt Fuji.</p>
+        <div class="why"><b>Why it's worth it:</b> Probably the best skyline view in Tokyo. Worth it if the budget allows; the first thing to cut if it doesn't.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>¥2,700 before 15:00 / ¥3,400 after (online)</dd></div>
+          <div><dt>Time needed</dt><dd>1 h</dd></div>
+          <div><dt>Hours</dt><dd>10:00–22:30</dd></div>
+          <div><dt>Best time</dt><dd>Clear afternoon for Fuji</dd></div>
+        </dl>
+        <ul class="tips"><li><b>Tickets release online 14 days ahead at midnight</b> (Japan and Korea share the same time zone), so for Sat 9 Jan that's midnight on 26 Dec, and they sell out.</li><li>Sunset in Tokyo is ~16:45, the same time as Maghrib. Go for a 14:00–15:00 slot instead: cheaper, Fuji is clearer, and it doesn't clash with solat.</li><li>Bags and hats have to go in lockers before the rooftop.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Shibuya PARCO prayer room (5F) is a few minutes' walk away.</span></div>
+      </article>
+    </div>
+  </section>
+  <section id="day5" class="day-section">
+    <div class="day-head">
+      <div class="day-big">5</div>
+      <div>
+        <div class="eyebrow">Day 5 · Sun 10 Jan · Mt Fuji</div>
+        <h2 class="day-title">Kawaguchiko — Mt Fuji day</h2>
+        <p class="day-intro">08:00 bus from Shinjuku. There's <b>no halal food here</b>, so bring bekal. Overnight bus back to Osaka at 20:47.</p>
+      </div>
+    </div>
+    <div class="places">
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Viewpoint</div>
+            <h3 class="place-name">Chureito Pagoda <span class="jp">忠霊塔</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 10 out of 10"><div class="rating-num">10<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+        </div>
+        <p class="syn">A red five-storey pagoda on the hillside of Arakurayama Sengen Park, built in 1963 as a peace memorial. From the lookout above it, the pagoda and Mt Fuji line up in one frame: the postcard shot of Japan.</p>
+        <div class="why"><b>Why it's worth it:</b> This is the photo everyone pictures when they think of Japan, and winter gives the clearest Fuji views of the year.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free</dd></div>
+          <div><dt>Time needed</dt><dd>1.5–2 h</dd></div>
+          <div><dt>Hours</dt><dd>Always open</dd></div>
+          <div><dt>Best time</dt><dd>Morning; clouds often cover Fuji by afternoon</dd></div>
+        </dl>
+        <ul class="tips"><li><b>398 stone steps</b> up (10–15 minutes). They can be icy in January, so wear shoes with grip.</li><li>Nearest station: Shimoyoshida on the Fujikyu line, a few stops from Kawaguchiko.</li><li>Go here <em>first</em>, while Fuji is still clear.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Nothing nearby. Bring bekal, and pray outdoors with a sejadah and a qibla app.</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Lake view</div>
+            <h3 class="place-name">Lake Kawaguchiko &amp; Oishi Park <span class="jp">河口湖・大石公園</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 8 out of 10"><div class="rating-num">8<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">The most accessible of the Fuji Five Lakes. Oishi Park on the north shore looks straight across the water to Mt Fuji, with the reflection on calm days.</p>
+        <div class="why"><b>Why it's worth it:</b> A relaxed, free afternoon with Fuji in front of you the whole time. It's also where Maghrib at sunset over Fuji could happen.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free</dd></div>
+          <div><dt>Time needed</dt><dd>1–2 h</dd></div>
+          <div><dt>Hours</dt><dd>Always open</dd></div>
+          <div><dt>Best time</dt><dd>Afternoon to sunset</dd></div>
+        </dl>
+        <ul class="tips"><li>Take the Kawaguchiko sightseeing bus (Red Line) around the lake instead of walking. It's a long way.</li><li>Temperatures are below zero by evening. Layer up before the bus.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Buy snacks at the konbini at Kawaguchiko station for dinner on the bus.</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Optional</div>
+            <h3 class="place-name">Kachi Kachi Ropeway <span class="jp">カチカチ山ロープウェイ</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 7 out of 10"><div class="rating-num">7<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">A 3-minute cable car up Mt Tenjo beside the lake, with a lookout over Lake Kawaguchiko and Fuji.</p>
+        <div class="why"><b>Why it's worth it:</b> Easy height without a hike, but not essential if Chureito already gave you the view.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>¥1,000 return (not budgeted)</dd></div>
+          <div><dt>Time needed</dt><dd>1 h</dd></div>
+          <div><dt>Hours</dt><dd>~09:30–16:00 in winter</dd></div>
+          <div><dt>Best time</dt><dd>Midday</dd></div>
+        </dl>
+        <ul class="tips"><li>Only worth doing if Fuji is visible that day. Check before you queue.</li></ul>
+        
+      </article>
+    </div>
+  </section>
+  <section id="day6" class="day-section">
+    <div class="day-head">
+      <div class="day-big">6</div>
+      <div>
+        <div class="eyebrow">Day 6 · Mon 11 Jan · Kyoto</div>
+        <h2 class="day-title">Kyoto — Kiyomizu-dera half-day</h2>
+        <p class="day-intro">Rest in the morning after the bus, then Kyoto from ~10:30. It's a <b>Japanese public holiday</b> (Coming of Age Day), so expect crowds.</p>
+      </div>
+    </div>
+    <div class="places">
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Old town</div>
+            <h3 class="place-name">Ninenzaka &amp; Sannenzaka <span class="jp">二年坂・三年坂</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 8 out of 10"><div class="rating-num">8<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">Two sloping stone-paved lanes lined with wooden machiya townhouses, tea shops and craft stores. This is the path up to Kiyomizu-dera and the best-preserved old-Kyoto streetscape.</p>
+        <div class="why"><b>Why it's worth it:</b> It's the Kyoto you see in photos, and you walk through it on the way to the temple anyway.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>Free</dd></div>
+          <div><dt>Time needed</dt><dd>45 min</dd></div>
+          <div><dt>Hours</dt><dd>Shops ~09:00–17:00</dd></div>
+          <div><dt>Best time</dt><dd>Late morning</dd></div>
+        </dl>
+        <ul class="tips"><li>Local legend says if you trip on Sannenzaka you'll have three years of bad luck, so watch your step on the stairs.</li><li>Kyoto asks visitors not to eat while walking in these lanes.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span><b>Curry Club Ruu Ninenzaka</b>: halal Japanese curry, with a prayer room and wudu area (fits 4–5, so pray in two groups).</span></div>
+      </article>
+      <article class="card place">
+        <div class="place-head">
+          <div>
+            <div class="eyebrow">Temple · UNESCO</div>
+            <h3 class="place-name">Kiyomizu-dera <span class="jp">清水寺</span></h3>
+          </div>
+          <div class="rating" aria-label="Rating 9 out of 10"><div class="rating-num">9<small>/10</small></div><div class="segs"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></div></div>
+        </div>
+        <p class="syn">Founded in 778 and part of the UNESCO “Historic Monuments of Ancient Kyoto”. Its main hall has a huge wooden stage about 13 metres above the hillside, rebuilt in 1633 without a single nail, looking out over Kyoto. Below it, the Otowa Waterfall splits into three streams.</p>
+        <div class="why"><b>Why it's worth it:</b> One of the most famous sights in Japan, and the view from the stage over the city is spectacular.</div>
+        <dl class="facts">
+          <div><dt>Cost</dt><dd>¥500 (cash)</dd></div>
+          <div><dt>Time needed</dt><dd>1–1.5 h</dd></div>
+          <div><dt>Hours</dt><dd>06:00–18:00</dd></div>
+          <div><dt>Best time</dt><dd>Early afternoon</dd></div>
+        </dl>
+        <ul class="tips"><li>There's a Japanese saying, “jump off the stage of Kiyomizu”, meaning to take a big leap or bold decision.</li><li>Drinking from the Otowa stream is a ritual for good fortune. It's optional; just look if you prefer.</li><li>Bring cash: cards aren't reliably accepted at the gate.</li></ul>
+        <div class="halal"><span class="halal-tag">Halal & solat</span><span>Shinjukutei Kiyomizu (halal wagyu ramen) is also nearby, as a backup.</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="etiquette" style="margin-top:64px;">
+    <div class="section-head"><span class="section-num">✦</span><h2 class="section-title">Japan etiquette in 60 seconds</h2></div>
+    <div class="etiq-grid"><div class="card etiq"><div class="etiq-icon">🚃</div><div><b>Trains are quiet</b><p>No phone calls, and keep your voice low. Queue in the marked lines on the platform.</p></div></div><div class="card etiq"><div class="etiq-icon">🛗</div><div><b>Escalators</b><p>Osaka: stand on the <b>right</b>. Tokyo: stand on the <b>left</b>. Leave the other side free for walkers.</p></div></div><div class="card etiq"><div class="etiq-icon">🗑️</div><div><b>Hardly any bins</b><p>Carry a small plastic bag for your trash. Konbini have bins inside.</p></div></div><div class="card etiq"><div class="etiq-icon">💴</div><div><b>Cash still matters</b><p>Temples, market stalls and small eateries are often cash-only.</p></div></div><div class="card etiq"><div class="etiq-icon">🙅</div><div><b>No tipping</b><p>Tipping isn't done in Japan and can confuse people. Just say “arigatou gozaimasu”.</p></div></div><div class="card etiq"><div class="etiq-icon">⛩️</div><div><b>At temples</b><p>You're a visitor, not a worshipper: no need to bow, pray or do any ritual. Keep your voice down, follow photo signs, and take shoes off where asked (wear clean socks!).</p></div></div><div class="card etiq"><div class="etiq-icon">🚶</div><div><b>Eating while walking</b><p>Frowned upon in Kyoto and Asakusa. Eat standing next to the stall.</p></div></div><div class="card etiq"><div class="etiq-icon">🕌</div><div><b>Solat in public</b><p>Prayer rooms are listed on each card. Outdoors, choose a quiet corner out of the way. People are generally respectful.</p></div></div></div>
+  </section>
+
+  <section id="prep" style="margin-top:64px;">
+    <div class="section-head"><span class="section-num">✓</span><h2 class="section-title">Prep checklist — what's still left</h2></div>
+    <p style="margin-top:0;">Things everyone should know about, grouped by when they need doing. If you take one on, say so in the group chat so two people don't book the same thing.</p>
+    <div class="done-card">
+      <div class="eyebrow" style="color:var(--green);">Already done</div>
+      <ul><li><span class="box done" aria-hidden="true">✓</span>Flights for all 6 (Peach, paid)</li><li><span class="box done" aria-hidden="true">✓</span>Osaka guesthouse (Trip.com, paid)</li><li><span class="box done" aria-hidden="true">✓</span>Itinerary + budget planned</li><li><span class="box done" aria-hidden="true">✓</span>Trip dossier &amp; places guide online</li></ul>
+    </div>
+    
+    <div class="check-group">
+      <div class="check-head"><h3>Urgent — book now</h3><span class="pill urgent">Urgent</span></div>
+      <ul class="checklist">
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Overnight bus Osaka → Tokyo (Willer Express, Thu 7 Jan 23:00)</div><div class="check-note">Booking opens ~3 months ahead, which is now. Book all 6 seats together at willer-travel.com.</div></div>
+          <span class="when mono">ASAP</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Overnight bus Kawaguchiko → Osaka (Fujiyama Liner, Sun 10 Jan 20:47)</div><div class="check-note">It's both your transport and that night's bed. If it sells out, the route breaks.</div></div>
+          <span class="when mono">ASAP</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Bus Shinjuku → Kawaguchiko (Sun 10 Jan 08:00)</div><div class="check-note">It's a Sunday, so weekend seats go first. Reserve as soon as booking opens.</div></div>
+          <span class="when mono">When open</span>
+        </li>
+      </ul>
+    </div>
+    <div class="check-group">
+      <div class="check-head"><h3>Before December</h3><span class="pill todo">To do</span></div>
+      <ul class="checklist">
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Ask the guesthouse host for photos of the bedding for 6</div><div class="check-note">So nobody finds out about the floor situation at midnight on 6 Jan.</div></div>
+          <span class="when mono">Oct</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Travel insurance for everyone</div><div class="check-note">Covers medical costs, delays and lost bags. Japanese hospitals are expensive for tourists.</div></div>
+          <span class="when mono">Nov</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Check passports are valid for the whole trip</div><div class="check-note">Malaysian e-passport holders get visa-free entry for short stays. Check that your passport is an e-passport and won't expire soon.</div></div>
+          <span class="when mono">Nov</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Bring your Korean ARC card</div><div class="check-note">You need it to re-enter Korea on 12 Jan. Don't pack it in checked luggage.</div></div>
+          <span class="when mono">Packing</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Check Peach baggage allowance</div><div class="check-note">Budget fares often only include a small carry-on. Also check how much luggage the buses allow.</div></div>
+          <span class="when mono">Nov</span>
+        </li>
+      </ul>
+    </div>
+    <div class="check-group">
+      <div class="check-head"><h3>December</h3><span class="pill later">Later</span></div>
+      <ul class="checklist">
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Shibuya Sky tickets (optional)</div><div class="check-note">Release at midnight on <b>26 Dec</b> for Sat 9 Jan. Book the 14:00–15:00 slot (¥2,700).</div></div>
+          <span class="when mono">26 Dec</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Fill in Visit Japan Web</div><div class="check-note">Online immigration and customs form. You get QR codes that make arrival at KIX faster.</div></div>
+          <span class="when mono">~1 week before</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Reserve manga cafe booths (Fri 8 + Sat 9 Jan)</div><div class="check-note">Flat-mat group booths in Shinjuku. Friday and Saturday nights fill up.</div></div>
+          <span class="when mono">Early Jan</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Change money to yen (cash)</div><div class="check-note">Temples, market stalls and small shops are often cash-only.</div></div>
+          <span class="when mono">Dec</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Mobile data: eSIM or pocket WiFi</div><div class="check-note">You'll need maps, the qibla app and train times all day.</div></div>
+          <span class="when mono">Dec</span>
+        </li>
+      </ul>
+    </div>
+    <div class="check-group">
+      <div class="check-head"><h3>Packing</h3><span class="pill later">Later</span></div>
+      <ul class="checklist">
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Plug adapter: Japan uses Type A (flat 2-pin, 100V)</div><div class="check-note">Korean plugs (round pins) won't fit. Most phone and laptop chargers work fine on 100V.</div></div>
+          <span class="when mono">Packing</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Warm layers, gloves, beanie</div><div class="check-note">Osaka/Tokyo ~1–10°C; Kawaguchiko below 0°C in the morning and evening.</div></div>
+          <span class="when mono">Packing</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Shoes with grip</div><div class="check-note">398 steps at Chureito (possibly icy) plus the uphill walk to Kiyomizu-dera.</div></div>
+          <span class="when mono">Packing</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Sejadah, qibla app, wet wipes</div><div class="check-note">For outdoor solat at Kawaguchiko and on the overnight buses.</div></div>
+          <span class="when mono">Packing</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Neck pillow, eye mask, power bank</div><div class="check-note">Two overnight buses. Sleep is part of the plan.</div></div>
+          <span class="when mono">Packing</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Food containers / bags for bekal</div><div class="check-note">For the Kawaguchiko day. Buy the food in Tokyo the night before.</div></div>
+          <span class="when mono">Packing</span>
+        </li>
+      </ul>
+    </div>
+    <div class="check-group">
+      <div class="check-head"><h3>On the trip</h3><span class="pill later">Later</span></div>
+      <ul class="checklist">
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Buy an ICOCA card at KIX</div><div class="check-note">Rechargeable IC card for trains and buses; it also works in Tokyo.</div></div>
+          <span class="when mono">Day 1</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Buy the Osaka Amazing Pass</div><div class="check-note">¥3,500, sold at stations on the day. It doesn't sell out.</div></div>
+          <span class="when mono">Day 2</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Friday: Solat Jumaat at Tokyo Camii</div><div class="check-note">Azan ~12:30, prayer ~13:00. Shift lunch to after.</div></div>
+          <span class="when mono">Day 3</span>
+        </li>
+        <li class="check-item">
+          <span class="box" aria-hidden="true"></span>
+          <div><div class="check-title">Tax refund at KIX</div><div class="check-note">New system from 1 Nov 2026: show goods + receipts at the airport. With a 07:40 flight, leave extra time.</div></div>
+          <span class="when mono">Day 7</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Ratings are our own opinion. Prices, hours and prayer-room details were checked online on 29 Sep 2026 and can change before January, especially halal restaurant listings. Sources:
+    <ul><li><a href="https://osaka-amazing-pass.com/en/">Osaka Amazing Pass (official)</a></li><li><a href="https://osakacastle.org/entrance-fee/">Osaka Castle entrance fee (official)</a></li><li><a href="https://tokyocamii.org/visit/">Tokyo Camii visitor info (official)</a></li><li><a href="https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/">Shinjuku Gyoen admission (official)</a></li><li><a href="https://tokyocheapo.com/place/shibuya-sky/">Shibuya Sky tickets (Tokyo Cheapo)</a></li><li><a href="https://www.japan-guide.com/e/e6917.html">Chureito Pagoda (japan-guide)</a></li><li><a href="https://www.japan-guide.com/e/e3901.html">Kiyomizu-dera (japan-guide)</a></li><li><a href="https://www.japan-guide.com/news/tax-free-shopping.html">Japan tax-free changes, Nov 2026 (japan-guide)</a></li><li><a href="https://e-asakusa.jp/en/spot/4165">Naritaya halal ramen (Asakusa Tourism Federation)</a></li><li><a href="https://www.halal-navi.com/blog/en/halal-food-osaka-2026-muslim-travelers-eat-pray-stay/">Halal food in Osaka 2026 (Halal Navi)</a></li><li><a href="https://www.halalfoodmaps.com/area/ueno-akihabara?lang=en">Halal in Akihabara (Halal Food Maps)</a></li><li><a href="https://fooddiversity.today/en/article_41462.html">Curry Club Ruu, Kiyomizudera (Food Diversity.today)</a></li></ul>
+  </footer>
+
+</div>
+</body>
+</html>

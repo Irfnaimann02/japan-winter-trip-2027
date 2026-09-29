@@ -5,6 +5,7 @@
 **Osaka ⇄ Tokyo ⇄ Mt Fuji · 6 friends · 6 nights / 7 days · halal-friendly**
 
 [![Live site](https://img.shields.io/badge/📖_Read_the_dossier-live_site-2b4c7e?style=for-the-badge)](https://irfnaimann02.github.io/japan-winter-trip-2027/)
+[![Guide](https://img.shields.io/badge/⛩️_Places_guide-ratings_&_tips-e0602f?style=for-the-badge)](https://irfnaimann02.github.io/japan-winter-trip-2027/guide.html)
 [![Itinerary](https://img.shields.io/badge/📊_Excel_itinerary-download-3d7d5f?style=for-the-badge)](./Japan_Winter_Trip_Itinerary.xlsx)
 
 ![Dates](https://img.shields.io/badge/dates-Jan_6–12,_2027-e0602f)
@@ -46,7 +47,12 @@ flowchart LR
 - [ ] Overnight bus Osaka → Tokyo (Willer Express)
 - [ ] Bus Kawaguchiko → Osaka (Fujiyama Liner)
 - [ ] Manga cafe booths in Tokyo (reserve a few days ahead)
-- [ ] ICOCA / Suica card for city metro
+- [ ] Shinjuku → Kawaguchiko bus (Sun 10 Jan, 08:00)
+- [ ] Travel insurance
+- [ ] Shibuya Sky tickets, optional (release 26 Dec, midnight)
+- [ ] Visit Japan Web (about 1 week before)
+
+➡️ Full prep list with deadlines, packing and on-trip reminders: **[Places guide → Prep checklist](https://irfnaimann02.github.io/japan-winter-trip-2027/guide.html#prep)**
 
 > [!IMPORTANT]
 > The overnight buses sell out around the New Year period. See **§09 "Book these now"** in the dossier for why they're time-sensitive.
@@ -56,6 +62,7 @@ flowchart LR
 | File | What it is |
 |---|---|
 | [`index.html`](./index.html) | The full trip dossier: flights, budget breakdown, day-by-day route, halal food guide, and what to book early. It's published as the [live site](https://irfnaimann02.github.io/japan-winter-trip-2027/), so read it there rather than as raw code on GitHub. |
+| [`guide.html`](./guide.html) | Places guide: every stop day by day with a synopsis, why it's worth it, a rating out of 10, costs, tips, and nearby halal food and prayer spots, plus the full prep checklist. Read it on the [live site](https://irfnaimann02.github.io/japan-winter-trip-2027/guide.html). |
 | [`Japan_Winter_Trip_Itinerary.xlsx`](./Japan_Winter_Trip_Itinerary.xlsx) | Minute-by-minute schedule from landing at KIX to departure, covering every meal, every solat time, and a per-person and per-group cost breakdown with formulas. Open in Excel, Google Sheets or Numbers. |
 
 ## 🗂️ Inside the dossier
