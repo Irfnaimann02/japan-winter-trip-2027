@@ -1,0 +1,7 @@
+# Excel lock files (created while the .xlsx is open)
+~$*
+
+# Windows / macOS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
