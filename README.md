@@ -10,7 +10,7 @@
 
 ![Dates](https://img.shields.io/badge/dates-Jan_6–12,_2027-e0602f)
 ![Group](https://img.shields.io/badge/group-6_people-4c5566)
-![Budget](https://img.shields.io/badge/budget-≈₩896k_/_person-4c5566)
+![Budget](https://img.shields.io/badge/budget-≈₩902k_/_person-4c5566)
 ![Flights](https://img.shields.io/badge/flights-booked_✓-3d7d5f)
 ![Stay](https://img.shields.io/badge/Osaka_stay-booked_✓-3d7d5f)
 ![Buses](https://img.shields.io/badge/night_buses-to_book-e0602f)
@@ -26,7 +26,7 @@
 | **Land** | Jan 6, 09:15 — Kansai International (KIX) |
 | **Leave** | Jan 12, 07:40 |
 | **Route** | Osaka (2 nights, guesthouse) → 🚌 overnight bus → Tokyo (2 nights, manga cafe) → Kawaguchiko day trip for Mt Fuji → 🚌 overnight bus back to Osaka → ⛩️ half-day Kyoto (Kiyomizu-dera) |
-| **Budget** | ≈₩896,000 per person all-in (flights, stay, transport, food, buffer) · ≈₩5.37M for all 6 |
+| **Budget** | ≈₩902,000 per person all-in (flights, stay, transport, food, buffer) · ≈₩5.41M for all 6 |
 | **Food & prayer** | Halal food spots and solat times are built into every day of the schedule |
 
 ```mermaid
@@ -49,7 +49,7 @@ flowchart LR
 - [ ] Manga cafe booths in Tokyo (reserve a few days ahead)
 - [ ] Shinjuku → Kawaguchiko bus (Sun 10 Jan, 08:00)
 - [ ] Travel insurance
-- [ ] Shibuya Sky tickets, optional (release 26 Dec, midnight)
+- [ ] Shibuya Sky tickets, optional (14:30 slot, ¥2,700; release 26 Dec, midnight)
 - [ ] Visit Japan Web (about 1 week before)
 
 ➡️ Full prep list with deadlines, packing and on-trip reminders: **[Places guide → Prep checklist](https://irfnaimann02.github.io/japan-winter-trip-2027/guide.html#prep)**
