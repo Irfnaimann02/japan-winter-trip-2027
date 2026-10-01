@@ -10,7 +10,7 @@
 
 ![Dates](https://img.shields.io/badge/dates-Jan_6–12,_2027-e0602f)
 ![Group](https://img.shields.io/badge/group-6_people-4c5566)
-![Budget](https://img.shields.io/badge/budget-≈₩902k_/_person-4c5566)
+![Budget](https://img.shields.io/badge/budget-≈₩938k_/_person-4c5566)
 ![Flights](https://img.shields.io/badge/flights-booked_✓-3d7d5f)
 ![Stay](https://img.shields.io/badge/Osaka_stay-booked_✓-3d7d5f)
 ![Buses](https://img.shields.io/badge/night_buses-to_book-e0602f)
@@ -25,16 +25,17 @@
 |---|---|
 | **Land** | Jan 6, 09:15 — Kansai International (KIX) |
 | **Leave** | Jan 12, 07:40 |
-| **Route** | Osaka (2 nights, guesthouse) → 🚌 overnight bus → Tokyo (2 nights, manga cafe) → Kawaguchiko day trip for Mt Fuji → 🚌 overnight bus back to Osaka → ⛩️ half-day Kyoto (Kiyomizu-dera) |
-| **Budget** | ≈₩902,000 per person all-in (flights, stay, transport, food, buffer) · ≈₩5.41M for all 6 |
+| **Route** | Osaka (2 nights, guesthouse) → 🚌 overnight bus → Tokyo (1 night, manga cafe) → 🚗 rental car to Mt Fuji, night by Lake Kawaguchiko → 🚗 back to Tokyo → 🚌 overnight bus to Osaka → ⛩️ half-day Kyoto (Kiyomizu-dera) |
+| **Budget** | ≈₩938,000 per person all-in (flights, stay, transport, food, buffer) · ≈₩5.63M for all 6 |
 | **Food & prayer** | Halal food spots and solat times are built into every day of the schedule |
 
 ```mermaid
 flowchart LR
     KIX([✈️ KIX<br/>Jan 6]) --> OSA[🏯 Osaka<br/>2 nights]
-    OSA -- 🚌 night bus --> TYO[🗼 Tokyo<br/>2 nights]
-    TYO --> FUJI[🗻 Kawaguchiko<br/>day trip]
-    FUJI -- 🚌 night bus --> OSA2[🏯 Osaka]
+    OSA -- 🚌 night bus --> TYO[🗼 Tokyo<br/>1 night]
+    TYO -- 🚗 rental car --> FUJI[🗻 Kawaguchiko<br/>night in the car]
+    FUJI -- 🚗 --> TYO2[🗼 Tokyo<br/>Sunday]
+    TYO2 -- 🚌 night bus --> OSA2[🏯 Osaka]
     OSA2 -. half-day .-> KYO[⛩️ Kyoto<br/>Kiyomizu-dera]
     KYO -.-> OSA2
     OSA2 --> OUT([✈️ KIX<br/>Jan 12])
@@ -45,17 +46,19 @@ flowchart LR
 - [x] Flights (all 6)
 - [x] Osaka guesthouse
 - [ ] Overnight bus Osaka → Tokyo (Willer Express)
-- [ ] Bus Kawaguchiko → Osaka (Fujiyama Liner)
+- [ ] Overnight bus Tokyo → Osaka (Willer, Sun 10 Jan ~23:00)
 - [ ] Manga cafe booths in Tokyo (reserve a few days ahead)
-- [ ] Shinjuku → Kawaguchiko bus (Sun 10 Jan, 08:00)
+- [ ] Malaysian IDP for all 3 drivers (MyJPJ app, then post to Korea)
+- [ ] Rental car Sat 9 → Sun 10 Jan (7–8 seater, winter tyres, ETC card)
+- [ ] Sleeping bags rated to −10°C + a battery CO detector (night in the car)
 - [ ] Travel insurance
-- [ ] Shibuya Sky tickets, optional (14:30 slot, ¥2,700; release 26 Dec, midnight)
+- [ ] Shibuya Sky tickets, optional (Sun 10 Jan, 14:30 slot, ¥2,700; release 27 Dec, midnight)
 - [ ] Visit Japan Web (about 1 week before)
 
 ➡️ Full prep list with deadlines, packing and on-trip reminders: **[Places guide → Prep checklist](https://irfnaimann02.github.io/japan-winter-trip-2027/guide.html#prep)**
 
 > [!IMPORTANT]
-> The overnight buses sell out around the New Year period. See **§09 "Book these now"** in the dossier for why they're time-sensitive.
+> The overnight buses and 7–8 seater rental cars sell out around the New Year period, and the drivers' IDPs take weeks to reach Korea. See **§09 "Book these now"** in the dossier for why they're time-sensitive.
 
 ## 📂 What's in this repo
 
@@ -72,7 +75,7 @@ flowchart LR
 3. Getting there (flights)
 4. Where to sleep
 5. What it costs per person
-6. Kereta sewa: do you actually need one?
+6. Kereta sewa for the Fuji leg (costs, IDP, sleeping-in-the-car safety)
 7. The route: Osaka ⇄ Tokyo ⇄ Mt Fuji
 8. Halal food, solat & masak sendiri
 9. Book these now, before seats run out
